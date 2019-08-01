@@ -24,7 +24,7 @@ public class Teststtdf {
         vehiclesList.add(new Park(Type.HANDICAP, Size.MEDIUM, 10));
 
         park(spotsList, vehiclesList);
-        String str = vehiclesList.stream().filter(t->t.toString().length()<6).map(Park::toString).collect(Collectors.joining(","));
+        //String str = vehiclesList.stream().filter(t->t.toString().length()<6).map(Park::toString).collect(Collectors.joining(","));
 
         spotsList.forEach((s, i) -> {
             if (i > 0) {
