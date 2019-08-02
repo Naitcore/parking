@@ -1,4 +1,5 @@
 public enum Type {
     REGULAR,
-    HANDICAP
+    HANDICAP,
+    EXTRA
 }
